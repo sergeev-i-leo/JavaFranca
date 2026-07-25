@@ -1,4 +1,6 @@
-package franca.java.expected;
+package franca.java;
+
+import franca.java.expected.Runtime;
 
 public class TranspilableClass {
 

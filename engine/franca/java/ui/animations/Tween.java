@@ -1,6 +1,6 @@
 package franca.java.ui.animations;
 
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 import franca.java.ui.Router;
 import franca.java.ui.Page;
 import franca.java.ui.View;

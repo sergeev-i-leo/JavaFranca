@@ -1,7 +1,7 @@
 package franca.java.data.json;
 
 import franca.java.expected.BufferedString;
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 
 public class JsonElement extends TranspilableClass {
 

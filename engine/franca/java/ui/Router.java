@@ -2,7 +2,7 @@ package franca.java.ui;
 
 import franca.java.expected.IntegerConsumer;
 import franca.java.expected.StringConsumer;
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 import franca.java.ui.animations.Tween;
 
 /**

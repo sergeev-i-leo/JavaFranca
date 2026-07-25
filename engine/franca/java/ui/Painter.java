@@ -1,6 +1,6 @@
 package franca.java.ui;
 
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 
 public class Painter extends TranspilableClass {
 

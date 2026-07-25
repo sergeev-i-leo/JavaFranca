@@ -1,6 +1,6 @@
 package franca.java.ui.animations;
 
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 import franca.java.ui.Router;
 
 public class Ease extends TranspilableClass {

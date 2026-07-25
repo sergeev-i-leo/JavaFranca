@@ -1,7 +1,7 @@
 package franca.java.office.document.table;
 
 import franca.java.data.json.JsonObject;
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 
 public class TableColumn extends TranspilableClass {
 

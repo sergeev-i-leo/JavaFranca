@@ -2,7 +2,7 @@ package franca.java.office.document;
 
 import franca.java.data.json.JsonObject;
 import franca.java.expected.BufferedString;
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 import franca.java.data.json.JsonArray;
 import franca.java.office.document.factory.DocumentFactory;
 

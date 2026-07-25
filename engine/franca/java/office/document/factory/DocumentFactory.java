@@ -1,7 +1,7 @@
 package franca.java.office.document.factory;
 
 import franca.java.expected.BufferedString;
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 import franca.java.office.document.Block;
 import franca.java.office.document.list.ListBlock;
 import franca.java.office.document.list.ListItemBlock;

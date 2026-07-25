@@ -2,7 +2,7 @@ package franca.java.data;
 
 import franca.java.expected.Runtime;
 import franca.java.expected.BufferedString;
-import franca.java.expected.TranspilableClass;
+import franca.java.TranspilableClass;
 
 public class Parser extends TranspilableClass {
 
