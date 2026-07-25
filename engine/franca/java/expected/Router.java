@@ -19,6 +19,16 @@ public class Router extends TranspilableClass {
   private int lastTweenId = 0;
   private Tween firstTween = null;
 
+  public long getTime() {
+    return 0L;
+  }
+
+  public void readFile(String path, StringConsumer callback) {
+  }
+
+  public void writeFile(String path, String content, IntegerConsumer callback) {
+  }
+
   public Page getTopPage() {
     return topPage;
   }
@@ -46,7 +56,7 @@ public class Router extends TranspilableClass {
 
     lastTweenId++;
     tween.tweenId = lastTweenId;
-    tween.registeredTime = Runtime.instance.getTime();
+    tween.registeredTime = getTime();
 
     tween.nextTween = firstTween;
     if (firstTween != null) {

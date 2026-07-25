@@ -2,8 +2,6 @@ package franca.java.expected;
 
 public class Runtime {
 
-  public static Runtime instance = null;
-
   private static long nextId = 0L;
 
   public static synchronized long getId() {
@@ -54,15 +52,5 @@ public class Runtime {
 
   public static String doubleToString(double value) {
     return Double.toString(value);
-  }
-
-  public long getTime() {
-    return 0L;
-  }
-
-  public void readFile(String path, StringConsumer callback) {
-  }
-
-  public void writeFile(String path, String content, IntegerConsumer callback) {
   }
 }
