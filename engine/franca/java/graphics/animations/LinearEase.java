@@ -1,6 +1,7 @@
 package franca.java.graphics.animations;
 
 import franca.java.expected.Router;
+import franca.java.expected.Runtime;
 
 public class LinearEase extends Ease {
 
@@ -18,7 +19,7 @@ public class LinearEase extends Ease {
       return false;
     }
 
-    long currentTime = router.getTime();
+    long currentTime = Runtime.instance.getTime();
 
     if (currentTime >= startedTime + duration) {
       // is over

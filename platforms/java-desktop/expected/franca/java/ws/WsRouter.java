@@ -1,10 +1,10 @@
 package franca.java.ws;
 
-import franca.java.common.JavaDesktopRouter;
+import franca.java.expected.Router;
 import franca.java.graphics.GraphicsRouter;
 import franca.java.skia.SkiaRouter;
 
-public class WsRouter extends JavaDesktopRouter {
+public class WsRouter extends Router {
 
   public WsServer wsServer;
   public GraphicsRouter graphicsRouter;

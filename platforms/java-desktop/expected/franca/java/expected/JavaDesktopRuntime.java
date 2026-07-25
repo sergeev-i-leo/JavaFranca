@@ -1,14 +1,10 @@
-package franca.java.common;
-
-import franca.java.expected.IntegerConsumer;
-import franca.java.expected.Router;
-import franca.java.expected.StringConsumer;
+package franca.java.expected;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class JavaDesktopRouter extends Router {
+public class JavaDesktopRuntime extends Runtime {
 
   @Override
   public long getTime() {

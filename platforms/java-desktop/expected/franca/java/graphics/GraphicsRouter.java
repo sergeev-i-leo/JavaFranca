@@ -8,9 +8,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import franca.java.common.JavaDesktopRouter;
+import franca.java.expected.Runtime;
+import franca.java.expected.Router;
 
-public class GraphicsRouter extends JavaDesktopRouter {
+public class GraphicsRouter extends Router {
 
   public GraphicsPanel graphicsPanel = new GraphicsPanel(this);
 
@@ -22,12 +23,12 @@ public class GraphicsRouter extends JavaDesktopRouter {
       return;
     }
     scheduledExecutorService = Executors.newSingleThreadScheduledExecutor();
-    lastTickTime = getTime();
+    lastTickTime = Runtime.instance.getTime();
     scheduledExecutorService.scheduleAtFixedRate(this::tick, 0, 2, TimeUnit.MILLISECONDS);
   }
 
   private void tick() {
-    long tickTime = getTime();
+    long tickTime = Runtime.instance.getTime();
     if (tickTime - lastTickTime < 16) {
       return;
     }
