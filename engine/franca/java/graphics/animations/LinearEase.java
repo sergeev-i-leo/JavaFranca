@@ -1,7 +1,6 @@
 package franca.java.graphics.animations;
 
 import franca.java.expected.Router;
-import franca.java.expected.Runtime;
 
 public class LinearEase extends Ease {
 
