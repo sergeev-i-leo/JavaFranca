@@ -1,11 +1,11 @@
 package franca.java;
 
-import franca.java.graphics.Page;
-import franca.java.graphics.View;
-import franca.java.graphics.animations.Ease;
-import franca.java.graphics.animations.Tween;
-import franca.java.expected.Painter;
-import franca.java.expected.Router;
+import franca.java.ui.Page;
+import franca.java.ui.View;
+import franca.java.ui.animations.Ease;
+import franca.java.ui.animations.Tween;
+import franca.java.ui.Painter;
+import franca.java.ui.Router;
 
 import java.util.Random;
 
