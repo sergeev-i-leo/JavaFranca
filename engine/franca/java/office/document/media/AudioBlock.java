@@ -6,17 +6,13 @@ import franca.java.office.document.Block;
 
 public class AudioBlock extends Block {
 
-  public String source = "";
-
   @Override
   public void fillJsonObject(JsonObject jsonObject) {
     super.fillJsonObject(jsonObject);
-    jsonObject.putStringValue("source", source);
   }
 
   @Override
   public void serialize(BufferedString targetBufferedString, int spacesBefore) {
-    addQuotedAttribute("data-source", source);
     super.serialize(targetBufferedString, spacesBefore);
   }
 
